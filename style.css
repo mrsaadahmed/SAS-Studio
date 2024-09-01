@@ -59,6 +59,19 @@ a {
   text-decoration: none;
 }
 
+.Logo{
+  /* background-color: black; */
+  display: flex;
+}
+
+.Logo-Text{
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  font-size: 1.8rem;
+  /* font-weight: bold; */
+}
+
 .header {
   background-color: #74c69d;
   color: white;
@@ -134,7 +147,7 @@ a {
 }
 
 .welcome {
-  font-size: 1rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
 }
 
@@ -657,7 +670,7 @@ a {
     width: 100%;
   }
 
-  .page-5-imges {
+  .page-5-images {
     width: 100%;
     display: flex;
     flex-direction: row;
