@@ -1,0 +1,377 @@
+/* work-sans font code css  */
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* work-sans font code css  */
+
+/*Crimson-text font  code css  */
+.crimson-text-regular {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.crimson-text-semibold {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.crimson-text-bold {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.crimson-text-regular-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.crimson-text-semibold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.crimson-text-bold-italic {
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+/*Crimson-text font  code css  */
+
+body {
+    margin: 0 auto;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+}
+
+.Logo{
+    /* background-color: black; */
+    display: flex;
+}
+.Logo-Text{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-size: 1.8rem;
+    /* font-weight: bold; */
+}
+
+.header {
+    background-color: #74c69d;
+    color: white;
+}
+
+.safe-area {
+    width: auto;
+    /* margin: auto 1.5rem; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.head {
+    display: flex;
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    border-radius: 2rem;
+}
+.logo-img {
+    height: 2.3rem;
+}
+
+.head-menu-containar {
+    display: flex;
+    /* background-color: blue; */
+    flex-grow: 1;
+    justify-content: end;
+    align-items: center;
+}
+
+.headmenu {
+    display: none;
+}
+
+.head-menu-img {
+    display: block;
+}
+
+.mobile-menu-container {
+    display: none;
+    background-color: white;
+    color: black;
+}
+
+.mobile-menu-container ul {
+    margin: 0;
+    padding: 0 1.2rem;
+}
+
+.mobile-menu-container li {
+    list-style: none;
+    margin: 0;
+    font-size: 1.2rem;
+    border-bottom: solid 1px #CCC;
+}
+
+.mobile-menu-container li a {
+    padding: 1.2rem 0;
+    display: block;
+}
+
+.main-container{
+    display: flex;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+
+}
+
+.content1 {
+    letter-spacing: 0.23rem;
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #74C69D;
+    text-transform: uppercase;
+}
+
+.content2 {
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+.content3 {
+    text-align: center;
+    font-size: 1.3rem;
+    /* background-color: aqua; */
+}
+
+.services-list{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.top-container{
+    border-style: solid;
+    border-width: 0rem;
+    border-color: lightgray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.4rem;
+    padding: 1rem 1.5rem;
+}
+
+.top-container{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.Amount-tag{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.services-quality{
+    font-size: 1rem;   
+    color: hsl(0, 0%, 10%);
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    padding-top: 3rem;
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+    flex-grow: 1;
+}
+
+.bottom1{
+    display: flex;
+    gap: 0.6rem;
+}
+
+.bottom2{
+    display: flex;
+    gap: 0.6rem;
+}
+.bottom3{
+    display: flex;
+    gap: 0.6rem;
+}
+.bottom4{
+    display: flex;
+    gap: 0.6rem;
+}
+.bottom5{
+    display: flex;
+    gap: 0.6rem;
+}
+
+.learn-more-button {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.learn-more-button a{
+    background-color: #212529;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 0.8rem 2.3rem;
+    font-size: 1.3rem;
+    border-radius: 0.4rem;
+}
+
+.footer {
+    background-color: #74c69d;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: center;
+    gap: 0.8rem;
+}
+
+.footer-content {
+    color: white;
+    font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+    body {
+    background-color: white;
+    }
+
+    .safe-area {
+        width: 768px;
+        margin: 0 auto;
+    }
+
+    .mobile-menu-container {
+        display: none !important;
+    }
+
+    .main {
+        padding-top: 0.5rem;
+        /* padding-bottom: 2.5rem; */
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+    
+    .headmenu ul {
+        display: flex;
+        justify-content: end;
+        gap: 1rem;
+    }
+    
+    .headmenu li {
+        list-style: none;
+    }
+    
+    .headmenu a {
+        color: white;
+        font-size: 1.3rem;
+    }
+    
+    .headmenu {
+        display: flex;
+    }
+    
+    .head-menu-img {
+        display: none;
+    }
+
+    .Logo-Text{
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        font-size: 2.3rem;
+    }
+
+    .main-container{
+        display: flex;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .services-list {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        /* gap: 2.5rem; */
+        /* margin: 3rem; */
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: end;
+    }
+
+    .footer-main {
+        display: flex;
+        flex-direction: row;
+        /* gap: 30rem; */
+    }
+
+    .footer-content {
+        display: flex;
+        flex-grow: 1;
+        justify-content: end;
+    }
+}
+
+@media (min-width: 1024px) {
+    .safe-area {
+    width: 1024px;
+    margin: 0 auto;
+    }
+}

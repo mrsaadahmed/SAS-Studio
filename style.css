@@ -243,7 +243,6 @@ a {
   font-size: 1.3rem;
   border-radius: 0.4rem;
   margin-bottom: 1.5rem;
-
 }
 
 .page-3 {
@@ -557,7 +556,6 @@ a {
   }
 
   body {
-
     background-color: white;
   }
 
@@ -565,6 +563,13 @@ a {
     width: 768px;
     margin: 0 auto;
   }
+
+  .Logo-Text{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 2.3rem;
+}
 
   .main {
     padding-top: 0.5rem;
